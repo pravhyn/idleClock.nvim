@@ -2,7 +2,7 @@ local async = require("plenary.async")
 
 local M = {}
 
-M.timeSpent = nil
+M.timeSpent = "00:00"
 M.stop = false
 function M.run()
 
